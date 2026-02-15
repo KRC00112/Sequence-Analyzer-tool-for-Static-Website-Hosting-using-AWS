@@ -288,7 +288,19 @@
   color: #18d5d5;
 }
 
+.error-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+  background-color: #f8bdbd;
+  color: #d11010;
+  border-color: #d11010;
+}
+
+.error-card div {
+  padding-left: 5px;
+}
 
 
 
