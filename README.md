@@ -91,7 +91,7 @@ Created a React application using Vite and implemented DNA/RNA sequence analysis
 ## 🤝 ## 🙏 Credits
 
 - **ag-charts-react & ag-charts-enterprise** — Used for the Amino Acid Distribution bar chart.
-  <a href="https://www.ag-grid.com/ag-charts-react/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.ag-grid.com/charts/react/bar-series/" target="_blank" rel="noopener noreferrer">
   AG Charts
   </a>
 
