@@ -85,4 +85,9 @@ Created a React application using Vite and implemented DNA/RNA sequence analysis
 - Add monitoring and logging.
 
 
+## 🤝 Credits
 
+- **ag-charts-react & ag-charts-enterprise** — Used for the Amino Acid Distribution bar chart. [AG Charts](https://www.ag-grid.com/ag-charts-react/)
+- **react-donut-chart** — Used for the Nucleotide Distribution donut chart. [React Donut Chart](https://www.npmjs.com/package/react-donut-chart)
+
+These libraries made it easy to create interactive, customizable charts for the application.
