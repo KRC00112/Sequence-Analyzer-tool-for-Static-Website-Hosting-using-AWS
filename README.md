@@ -2,7 +2,7 @@
 
 ---
 
-## [![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square)](https://d2ch06ekyv8s8r.cloudfront.net/index.html)
+## Access the application here: [![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square)](https://d2ch06ekyv8s8r.cloudfront.net/index.html)
 
 ## 📘 Project Overview
 
@@ -64,8 +64,8 @@ Created a React application using Vite and implemented DNA/RNA sequence analysis
 
 ### 4. Test Deployment
 
-1. Opened CloudFront URL and verified it to be functioning correctly.
-2. Direct S3 access is blocked.
+1. Verified CloudFront URL works
+2. Confirmed direct S3 access is blocked
 
 ---
 
