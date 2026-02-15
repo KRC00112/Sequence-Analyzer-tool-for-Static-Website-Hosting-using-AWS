@@ -62,6 +62,25 @@ Created a React application using Vite and implemented DNA/RNA sequence analysis
 
 ### 4. Test Deployment
 
-- Opened CloudFront URL and verified it to be functioning correctly.
-- Direct S3 access is blocked
+1. Opened CloudFront URL and verified it to be functioning correctly.
+2. Direct S3 access is blocked
+
+---
+
+## 🧠 Conclusion
+
+### Key outcomes
+
+- How secure static hosting works in cloud environments
+- How Amazon CloudFront caching improves performance
+- How origin restrictions protect storage resources
+- How distributed edge delivery reduces latency  
+
+### Future Improvements
+
+- Implement CI/CD deployment pipeline
+- Add advanced biological sequence analysis features
+- Add monitoring and logging  
+
+
 
