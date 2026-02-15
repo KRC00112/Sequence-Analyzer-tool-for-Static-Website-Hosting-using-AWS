@@ -2,7 +2,7 @@
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square)](https://d2ch06ekyv8s8r.cloudfront.net/index.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square)](https://d12wvyyv0zv3id.cloudfront.net/index.html)
 
 ## 📘 Project Overview
 
@@ -51,7 +51,7 @@ This project implements a Least-Privilege Security Model by disabling all public
 
 **Viewer Request (1-2):** A user requests the site via HTTPS. The request is routed to the geographically closest CloudFront Edge Location to minimize latency.
 
-**Origin Fetch & OAC (3-4):** If the requested content is not in the cache (a "cache miss"), CloudFront sends a signed request to the Private S3 Bucket. S3 validates the Origin Access Control (OAC) signature and serves the requested objects.
+**Origin Fetch & OAC (3-4):** If the requested content is not in the cache, CloudFront sends a signed request to the Private S3 Bucket. S3 validates the Origin Access Control (OAC) signature and serves the requested objects.
 
 **Edge Caching (5):** CloudFront caches the objects at the Edge Location. Subsequent requests for the same content are served directly from the cache, significantly reducing the load on the S3 origin.
 
