@@ -43,16 +43,25 @@ The deployment architecture ensures:
 ### 1. Build Frontend Application
 Created a React application using Vite and implemented DNA/RNA sequence analysis logic.
 
-### 2. Configure Amazon S3 Storage
+### 2. Configure Amazon S3
 
 1. Successfully created a uniquely named, general-purpose S3 bucket.
-
 2. Ensured all public access settings were disabled and stayed enforced.
-
 3. Completed the bucket setup using default configuration.
-
 4. Uploaded static website build files and assets.
-
 5. Enabled static website hosting from the Properties section.
-
 6. Set the index and error documents for proper hosting behavior.
+
+### CloudFront Distribution Setup with S3
+
+1. Created a CloudFront distribution.
+2. Set the origin as the S3 bucket.
+3. Created an Origin Access Control (OAC).
+4. Attached the OAC to the distribution origin.
+5. Updated the S3 bucket policy to allow access only from CloudFront.
+
+### 5. Test Deployment
+
+- Opened CloudFront URL and verified it to be functioning correctly.
+- Direct S3 access is blocked
+
